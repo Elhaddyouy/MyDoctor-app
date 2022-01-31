@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardCornerRadius="60dp"
+
+
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="111dp"
+                    android:layout_height="34dp"
+                    android:text="Les spécialités "
+                    android:textColor="@color/purple_700"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.126"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.968" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="96dp"
+                    android:layout_height="36dp"
+                    android:text="Mes docteur"
+                    android:textColor="@color/purple_700"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.609"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.985" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="78dp"
+                    android:layout_height="37dp"
+                    android:text="Mes RV"
+                    android:textColor="@color/purple_700"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.951"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.967" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="56dp"
+                    android:layout_height="27dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.011"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.082"
+                    app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+                <ImageView
+                    android:id="@+id/imageView42"
+                    android:layout_width="50dp"
+                    android:layout_height="32dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.954"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.108"
+                    app:srcCompat="@drawable/ic_baseline_person_24" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            app:srcCompat="@drawable/doctr" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Dr MOHAMMED MOHAMMED"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100 Votes"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="300dp"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            app:srcCompat="@drawable/docc" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Dr MOHAMMED "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="150 Votes"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="300dp"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            app:srcCompat="@drawable/dandoct" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Dr DANNIEL"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50 Votes"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="300dp"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/femdoc" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Dr SUSAN"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="90 Votes"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="300dp"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/blueback.xml" value="0.128" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/butt_color.xml" value="0.2703125" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2546875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2546875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_emoji_emotions_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2546875" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_person_pin_circle_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_phone_android_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/drawable/imagebuttn.xml" value="0.2703125" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main10.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main11.xml" value="0.264" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main12.xml" value="0.2" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main13.xml" value="0.31556503198294245" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main14.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main15.xml" value="0.264" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main16.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main17.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main18.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main3.xml" value="0.4" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main4.xml" value="0.4" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main5.xml" value="0.264" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main6.xml" value="0.264" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main7.xml" value="0.264" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main8.xml" value="0.264" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main9.xml" value="0.25" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main_chat.xml" value="0.264" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main_logo.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main_menudocteur.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_main_specialite.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_mesdocteurs.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_mesrvpatient.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_motdepasse.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_profilmedcin.xml" value="0.264" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_profilpat.xml" value="0.2" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_profilpatient.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_register_doc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_registerdoc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mohamed/AndroidStudioProjects/MYDOCTOR2/app/src/main/res/layout/activity_specialite.xml" value="0.136" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyDOCTOR</string>
+    <string name="patient">PATIENT</string>
+    <string name="medcin">MEDCIN</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">mot de passe</string>
+    <string name="login">Login</string>
+    <string name="create_new">Click here for register</string>
+    <string name="not_register">Not Register?</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="name_error">Entrer votre nom </string>
+    <string name="phone_error">entrer votre numéro de telephone</string>
+    <string name="email_error">entrer votre adresse email </string>
+    <string name="error_invalid_email">votre email est incorrect </string>
+    <string name="password_error">entrer votre mot de passe </string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+</resources>

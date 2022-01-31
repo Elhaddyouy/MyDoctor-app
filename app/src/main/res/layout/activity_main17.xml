@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity17">
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView5"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardBackgroundColor="@android:color/darker_gray"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="133dp"
+            android:layout_height="110dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.021"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.822"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.81"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.503" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Prenom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.805"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.793" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="48dp"
+            android:layout_height="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.262"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.904"
+            app:srcCompat="@drawable/ic_baseline_photo_camera_24" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="58dp"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.029"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
+<TextView
+    android:id="@+id/textView71"
+    android:layout_width="76dp"
+    android:layout_height="27dp"
+    android:layout_marginBottom="164dp"
+    android:text="  CIN  "
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.045"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.406" />
+
+<TextView
+    android:id="@+id/textView72"
+    android:layout_width="70dp"
+    android:layout_height="32dp"
+    android:text="  Adress "
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.046"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.376" />
+
+<TextView
+    android:id="@+id/textView73"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="  Numero de téléphone "
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.059"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.432" />
+
+<TextView
+    android:id="@+id/textView74"
+    android:layout_width="84dp"
+    android:layout_height="34dp"
+    android:text="   Email  "
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.04"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textView75"
+    android:layout_width="78dp"
+    android:layout_height="34dp"
+    android:text="    Age  "
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.045"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/cardView5"
+    app:layout_constraintVertical_bias="0.57" />
+
+<TextView
+    android:id="@+id/textView76"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="    Spécialité "
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.05"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.648" />
+
+<TextView
+    android:id="@+id/textView77"
+    android:layout_width="98dp"
+    android:layout_height="37dp"
+    android:text="   Formation  "
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.041"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.822" />
+
+<TextView
+    android:id="@+id/textView78"
+    android:layout_width="246dp"
+    android:layout_height="40dp"
+    android:text="  Nombre d'années d'expériance"
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.079"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.735" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName3"
+    android:layout_width="201dp"
+    android:layout_height="48dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="cin"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.98"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.288" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName4"
+    android:layout_width="199dp"
+    android:layout_height="47dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="adr"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.966"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.359" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="spécialité"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.657"
+    tools:ignore="MissingConstraints" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName6"
+    android:layout_width="206dp"
+    android:layout_height="48dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="....@gmail.com"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="...ans"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.58" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="177dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0...."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  00  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"
+        tools:ignore="MissingConstraints" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName10"
+    android:layout_width="233dp"
+    android:layout_height="61dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="formatin"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.91"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.838"
+    tools:ignore="MissingConstraints" />
+
+<TextView
+    android:id="@+id/textView67"
+    android:layout_width="238dp"
+    android:layout_height="37dp"
+    android:text="Le Prix de premier résirvation"
+    android:textColor="@color/black"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.062"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.917" />
+
+<EditText
+    android:id="@+id/editTextTextPersonName11"
+    android:layout_width="133dp"
+    android:layout_height="39dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:text="     00 Dh"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName6"
+    app:layout_constraintHorizontal_bias="0.973"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.916" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="88dp"
+    android:layout_height="29dp"
+    android:text="Enregistre"
+    android:textColor="@color/purple_700"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.95"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.977" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

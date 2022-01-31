@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medcin"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginEnd="16dp"
+            android:padding="10dp"
+            app:cardBackgroundColor="@android:color/holo_blue_light"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/emailError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    tools:ignore="MissingClass">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="mot de pass"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                 <Button
+                    android:id="@+id/login"
+                     android:layout_width="240dp"
+                     android:layout_height="40dp"
+                     android:layout_margin="50dp"
+                    android:text="Se connecter"
+                     android:background="@drawable/butt_color"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Créer un nouveau compte"
+                    android:textSize="8sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:text="le mot de passe oublier?"
+                    android:textSize="8sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/patient"
+        android:padding="15dp" />
+
+</RelativeLayout>
